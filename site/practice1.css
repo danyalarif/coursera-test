@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/back1.jpg");
+    background-size: 100% 100%;
+    height: 746px;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#heading1{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 320px;
+    height: 50px;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    opacity: 80%;
+    padding-top: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#page2{
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#heading2{
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    opacity: 80%;
+}
+#section1{
+    position: absolute;         /*will be positined based on div(with reference to div since it is absolute and div is its parent*/
+    padding: 40px;
+    margin: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+    line-height: 150%;
+}
+#div2{
+    background-image: url("./images/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
